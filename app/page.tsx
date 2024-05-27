@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Story time',
+      label: 'Blue Sammer',
     },
     {
       action: 'tx',
@@ -25,7 +25,7 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'Blue Summer NFT',
   description: 'LFG',
   openGraph: {
     title: 'zizzamia.xyz',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>https://blue-summer.vercel.app</h1>
     </>
   );
 }
